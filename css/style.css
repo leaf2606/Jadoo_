@@ -1,0 +1,709 @@
+header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem 100px;
+     background-color:white;
+     position: sticky;
+     top: 0;
+}
+
+.logos{
+    display: flex;
+    gap: 16px;
+}
+
+.navigation{
+    display: flex;
+    gap: 30px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.content{
+    padding: 4rem 100px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-image: url(../img/illustration_principale.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content p{
+    width: 30%;
+    line-height: 1.5;
+    color: #BFC0CD;
+}
+
+h3{
+    font-family: poppins, bold, sans-serif;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    color: salmon;
+}
+
+h1{
+    font-family: volkhov, bold, serif;
+    font-size: 5.25em;
+    color:white;  
+ }
+
+ .souligne-text-rose{
+    background-image: url("../img/souligne_rose.svg");
+    background-repeat: no-repeat;
+    margin: 40px 0 20px;
+ }
+
+ #section-1 .souligne-text-rose{
+    background-position: 10px 96% 
+ }
+
+button{
+    font-family: poppins, bold, sans-serif;
+    background-color: #f1a501;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 10px; 
+    width: fit-content;
+}
+
+button:hover{
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+p{
+    font-family: poppins, regular, sans-serif;
+    font-size: 1em;
+    color:black;
+}
+
+span{
+    color: salmon;
+    font-family: volkhov, bold;
+    font-size: 50px;
+}
+
+h4{
+    color: #14183E;
+    font-family:volkhov, bold;
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.titre{
+    color: #14183E;
+    font-family:volkhov, bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.gras{
+    font-family: open, regular, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#section-4 .conteneur-4{
+    margin-bottom: 100px;
+}
+
+h5{
+    color:#5e6282 ;
+    font-family: poppins, regular, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.petit-titre{
+    color:#5e6282 ;
+    font-family: poppins, regular, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+#section-4 .conteneur-logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#section-4 .conteneur-logo img{
+    display: inline-block;
+}
+
+a, strong{
+    font-family: poppins, bold, sans-serif;
+    color: black;
+    vertical-align: middle;
+}
+
+#black{
+    font-family: poppins, regular, sans-serif;
+    color: black ;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+a[target]{
+    font-family: poppins, regular, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+}
+
+.conteneur-logo img{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+}
+
+.taille-petite{
+    font-family: poppins, regular, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+}
+
+#size{
+    font-family: poppins, regular, sans-serif;
+    font-size: 16px;
+    max-width: 460px;
+    color: white;
+    width: 30%;
+    line-height: 1.5;
+    padding: 4rem 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    border: solid 3px yellow;
+}
+
+#size, h6{
+    border: solid 3px black;
+}
+
+h6{
+    font-family: volkhov, bold, serif;
+    font-size: 84px;
+    margin-left: 5%;
+    color: white;
+}
+
+.souligne-text-rospe{
+    background-image: url(/img/souligne_rose.svg);
+    background-repeat: no-repeat;
+}
+
+#section-3 .souligne-text-rose{
+    margin: 100px 0 40px;
+    background-position: -5px 20%;
+}
+
+p{
+    font-family: poppins, regular, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+#section-3{
+    padding: 4rem 100px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-repeat: no-repeat;
+    background: url(/img/illustration_chef.jpg);
+    background-size: cover;
+}
+
+#section-3 >.conteneur-illustration{
+    position: absolute;
+    height: 652px;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    bottom: -2500px;
+    margin-left: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#section-3{
+    border: solid 3px violet;
+    bottom: 100px;
+}
+
+.conteneur-illustration figure{
+    display: inline-block;
+    width: 500px;
+    height: 100%;
+    margin: 0;
+    z-index: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    border: solid 3px white;
+}
+
+.conteneur-illustration img{
+    width: 100%;
+    height: 100%;
+}
+
+.carte figcaption{
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    font-size: 18px;
+    padding: 20px 0 0;
+    width: 300px;
+}
+
+figcaption{
+    color: #5e6282;
+    font-family: poppins, regular, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 7px;
+    margin-bottom: 5%;
+ }
+
+.carte{
+    width: 320px;
+    vertical-align: top;
+    width: 320px;
+    box-shadow: 0px 4px 32px 5px rgba(0, 0, 0, 0.05);
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+#section-2 #conteneur-nouveaute .carte:last-child::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 345px;
+    bottom: -70%;
+    background-image: url(../img/decoration_filet.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 80%;
+}
+
+#conteneur-nouveaute{
+    /*display: flex;*/
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.conteneur-carte{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.conteneur-carte article{
+    width: auto;
+}
+
+.carte-1 figure{
+    z-index: 2;
+    margin: 0;
+    border-radius: 24px;
+    background-color: white;
+}
+
+#section-2{
+    display: block;
+    background: url(../img/decor_1.svg);
+    background-repeat: no-repeat;
+    background-position:  98% 2%;
+}
+
+#section-2, button{
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+}
+
+.carte img{
+    max-width: 100%;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+#conteneur-maki{
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.conteneur-sushi{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
+}
+
+#conteneur-maki .carte-1:not(:hover){
+    box-shadow: none;
+    background-color: transparent;
+}
+
+#conteneur-maki .carte-1::before{
+   content: "";
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   bottom: -35px;
+   left: -35px;
+   opacity: 0;
+   background-image: url(../img/decoration_rose.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.conteneur-sushi .carte-1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+    background-color: white;
+    border-radius: 24px;
+ }
+
+.conteneur-sushi article{
+    width: auto;
+    border-radius: 24px;
+}
+
+.carte-1, img{
+    text-align: center;
+}
+
+.video{
+   display: flex;
+   width: 305px;
+   height: 164px;
+   border-radius: 15px;
+}
+
+.video img{
+    border-radius: 15px;
+}
+
+.bouton-video{
+    display: flex;
+    top: 50%;
+    left: 50%;
+    width: 77px;
+    height: 77px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#section-4{
+    background-image: url(../img/illustration_commander.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 100px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+#section-4 .conteneur-4{
+    border: solid 3px red;
+}
+
+#section-5{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#section-5 h2{
+    line-height: 20px;
+}
+
+.conteneur-formulaire{
+    display: table;
+    width: 100%;
+    box-shadow: 0px 4px 61px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    max-width: 1020px;
+    margin: auto;
+}
+
+.conteneur-formulaire .formulaire-champ{
+    margin: 0 0 30px;
+    padding: 0 15px 0 0;
+}
+
+.formulaire-gauche{
+    font-family: poppins, regular, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+.formulaire-gauche{
+    display: inline-block;
+    width: 50%;
+    justify-content: center;
+    margin: 30px;
+}
+
+.formulaire-gauche{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 50px;
+}
+
+.contact-champ{
+    margin: 0 0 30px;
+}
+
+.contact-champ label, .contact-champ input{
+    display: block;
+    font-size: 15px;
+}
+
+.contact-champ input{
+    margin: 0;
+    padding: 0 0 5px;
+    width: 100%;
+    color: #989898;
+    border: none;
+    border-bottom: 1px solid #e2e4e5;
+    outline: 0;
+    font-size: 13px;
+}
+
+.contact-champ input:focus{
+    margin: 0 0 -5px;
+    padding: 0 0 10px;
+    border-bottom-color: #007aff;
+}
+
+.contact-champ label{
+    margin: 0 0 12px;
+}
+
+.texte-formulaire-2{
+    color: #8d8d8d;
+    font-family: poppins, regular, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 19px;
+}
+
+#section-5 .formulaire-droite{
+    background: url(../img/illustration_formulaire.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.formulaire-droite{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.formulaire-droite, .formulaire-gauche{
+    display: table-cell;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    text-align: left;
+}
+
+.bouton-bleu{
+    font-family: poppins, regular, sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bouton-bleu > *{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bouton-bleu > *:not(:last-child){
+    margin: 0 10px 0 0;
+}
+
+.bouton-bleu{
+    background-color: #007aff;
+    box-shadow: 0px 20px 35px 5px rgba(11, 54, 59, 0.15);
+}
+
+.bouton-bleu:hover{
+    opacity: 0.9;
+}
+
+.bouton-bleu span{
+    color: white;
+}
+
+footer{
+    background-color: #f3f3f3;
+    padding: 70px 10% 20px;
+}
+
+footer section{
+    padding: 0;
+}
+
+.reserver{
+    font-family: poppins, regular, sans-serif;
+    text-align: center;
+    font-style: normal;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color:#5e6282
+}
+
+.footer-contact{
+    font-family: poppins, regular, sans-serif;
+    text-align: center;
+}
+
+.page-contact{
+    margin-left: 80%;
+}
+
+.footer-RDV{
+    font-family: poppins, regular, sans-serif;
+    text-align: center;
+    color: #5e6282;
+}
+
+.footer-restau{
+    font-family: poppins, regular, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 20%;
+}
+
+.normal{
+    font-family: poppins, regular, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    color: #5e6282;
+    border: solid 3px green;
+}
+
+.footer-restau, .normal{
+    text-align: center;
+}
+
+.texte{
+    font-family: poppins, regular, sans-serif;
+    margin-left: 20%;
+    top: 10%;
+    color:#5e6282
+}
+
+.part-footer, .logo-uber img{
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: -300px;
+}
+
+footer{
+    border: orange solid 3px;
+}
+
+.texte-couleur{
+    font-family: poppins, regular, sans-serif;
+    text-align: right;
+    margin-right: 20%;
+    top: 100px;
+}
+
+.footer-image img{
+    height: 50px;
+}
+
+.part-footer, .logo-uber{
+    height: 30px;
+    text-align: left;
+}
+
+#section-7 .google-play *{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#section-7 .apple-store *{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#section-7 .google-play{
+    background-color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+#section-7 .apple-store{
+    background-color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+button > *:not(:last-child){
+    margin: 0 10px 0 0;
+}
+
+span{
+    font-family: poppins, regular, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+.footer-global{
+    border: solid 3px blue;
+    padding: 50px;
+    margin: 10px 0 30px;
+}
