@@ -1,3 +1,5 @@
+/*HEADER*/
+
 header{
      display: flex;
      justify-content: space-between;
@@ -7,6 +9,8 @@ header{
      position: sticky;
      top: 0;
 }
+
+/*NAV*/
 
 .logos{
     display: flex;
@@ -30,6 +34,8 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+/*SECTION-1*/
 
 .content{
     padding: 4rem 100px;
@@ -99,6 +105,8 @@ span{
     font-size: 50px;
 }
 
+/*SECTION-2*/
+
 h4{
     color: #14183E;
     font-family:volkhov, bold;
@@ -123,10 +131,6 @@ h4{
     margin-bottom: 10px;
 }
 
-#section-4 .conteneur-4{
-    margin-bottom: 100px;
-}
-
 h5{
     color:#5e6282 ;
     font-family: poppins, regular, sans-serif;
@@ -142,13 +146,47 @@ h5{
     font-size: 18px;
     text-align: center;
 }
+
+/*SECTION-4*/
+
 #section-4 .conteneur-logo{
-    display: inline-block;
-    vertical-align: middle;
+    border: solid 3px blue;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 #section-4 .conteneur-logo img{
     display: inline-block;
+    border: solid 3px yellow;
+}
+
+#section-4{
+    background-image: url(../img/illustration_commander.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 100px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+figcaption [target], .conteneur-logo{
+    border: solid 3px black;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.titre-5{
+    margin-top: 25%;
+}
+
+/*CHANGER COULEUR COMMANDEZ*/
+
+h4{
+    margin-top: -0.5%;
 }
 
 a, strong{
@@ -185,6 +223,8 @@ a[target]{
     text-align: left;
 }
 
+/*SECTION-3*/
+
 #size{
     font-family: poppins, regular, sans-serif;
     font-size: 16px;
@@ -196,11 +236,6 @@ a[target]{
     display: flex;
     flex-direction: column;
     gap: 2em;
-    border: solid 3px yellow;
-}
-
-#size, h6{
-    border: solid 3px black;
 }
 
 h6{
@@ -208,9 +243,10 @@ h6{
     font-size: 84px;
     margin-left: 5%;
     color: white;
+    margin-top: -10%;
 }
 
-.souligne-text-rospe{
+.souligne-text-rose{
     background-image: url(/img/souligne_rose.svg);
     background-repeat: no-repeat;
 }
@@ -227,6 +263,10 @@ p{
     color: black;
 }
 
+.taille{
+    margin-bottom: 20%;
+}
+
 #section-3{
     padding: 4rem 100px;
     color:black;
@@ -234,24 +274,22 @@ p{
     flex-direction: column;
     gap: 2em;
     background-repeat: no-repeat;
-    background: url(/img/illustration_chef.jpg);
     background-size: cover;
+    background-image: url(/img/illustration_chef.jpg);
 }
 
-#section-3 >.conteneur-illustration{
+ #section-3 >.conteneur-illustration{
     position: absolute;
     height: 652px;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     left: 0;
-    bottom: -2500px;
-    margin-left: 8px;
+    bottom: -3000px;
     white-space: nowrap;
     overflow: hidden;
-}
+} 
 
 #section-3{
-    border: solid 3px violet;
     bottom: 100px;
 }
 
@@ -263,13 +301,36 @@ p{
     z-index: 1;
     white-space: nowrap;
     overflow: hidden;
-    border: solid 3px white;
 }
 
 .conteneur-illustration img{
     width: 100%;
     height: 100%;
 }
+
+.video{
+    display: flex;
+    width: 305px;
+    height: 164px;
+    border-radius: 15px;
+ }
+ 
+ .video img{
+     border-radius: 15px;
+ }
+ 
+ .bouton-video{
+     display: flex;
+     top: 50%;
+     left: 50%;
+     width: 77px;
+     height: 77px;
+     background-color: white;
+     border-radius: 50%;
+     border: solid 3px black;
+ }
+ 
+/*SECTION-2*/
 
 .carte figcaption{
     text-align: center;
@@ -305,13 +366,13 @@ figcaption{
     height: 100%;
     right: 345px;
     bottom: -70%;
+    z-index: -1;
     background-image: url(../img/decoration_filet.svg);
     background-repeat: no-repeat;
     background-position: 100% 80%;
 }
 
 #conteneur-nouveaute{
-    /*display: flex;*/
     width: auto;
     margin: auto;
     justify-content: center;
@@ -410,41 +471,7 @@ figure {
     text-align: center;
 }
 
-.video{
-   display: flex;
-   width: 305px;
-   height: 164px;
-   border-radius: 15px;
-}
-
-.video img{
-    border-radius: 15px;
-}
-
-.bouton-video{
-    display: flex;
-    top: 50%;
-    left: 50%;
-    width: 77px;
-    height: 77px;
-    background-color: white;
-    border-radius: 50%;
-}
-
-#section-4{
-    background-image: url(../img/illustration_commander.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 4rem 100px;
-    color:black;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-}
-
-#section-4 .conteneur-4{
-    border: solid 3px red;
-}
+/*SECTION-5*/
 
 #section-5{
     text-align: center;
@@ -578,9 +605,13 @@ figure {
     color: white;
 }
 
+/*FOOTER*/
+
 footer{
     background-color: #f3f3f3;
     padding: 70px 10% 20px;
+    border: solid 3px orange;
+    margin-top: 6%;
 }
 
 footer section{
@@ -626,7 +657,6 @@ footer section{
     text-decoration: none;
     text-align: center;
     color: #5e6282;
-    border: solid 3px green;
 }
 
 .footer-restau, .normal{
@@ -645,10 +675,6 @@ footer section{
     display: inline-block;
     vertical-align: top;
     margin-bottom: -300px;
-}
-
-footer{
-    border: orange solid 3px;
 }
 
 .texte-couleur{
@@ -703,7 +729,6 @@ span{
 }
 
 .footer-global{
-    border: solid 3px blue;
     padding: 50px;
     margin: 10px 0 30px;
 }
