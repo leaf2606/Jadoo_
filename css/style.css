@@ -32,7 +32,9 @@ a{
 }
 
 a:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    cursor: pointer; 
+     opacity: 0.9;
 }
 
 /*SECTION-1*/
@@ -471,7 +473,7 @@ figure {
     text-align: center;
 }
 
-/*SECTION-5*/
+/*SECTION-5 CONTENEUR-FORMULAIRE*/
 
 #section-5{
     text-align: center;
@@ -610,8 +612,8 @@ figure {
 footer{
     background-color: #f3f3f3;
     padding: 70px 10% 20px;
-    border: solid 3px orange;
     margin-top: 6%;
+    border: solid 3px orange;
 }
 
 footer section{
@@ -625,7 +627,9 @@ footer section{
     margin: 0;
     font-size: 14px;
     font-weight: 500;
-    color:#5e6282
+    color:#5e6282;
+    margin-top: 11%;
+    border: solid 3px red;
 }
 
 .footer-contact{
@@ -670,13 +674,6 @@ footer section{
     color:#5e6282
 }
 
-.part-footer, .logo-uber img{
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
-    margin-bottom: -300px;
-}
-
 .texte-couleur{
     font-family: poppins, regular, sans-serif;
     text-align: right;
@@ -688,34 +685,32 @@ footer section{
     height: 50px;
 }
 
-.part-footer, .logo-uber{
+.logo-uber{
+    display: flex;
+    margin-left: 1200px;
+    margin-top: -20%;
     height: 30px;
     text-align: left;
+    border: solid 3px red;
 }
 
-#section-7 .google-play *{
+#section-7 .apple-store *,
+#section-7 .google-play * {
     display: inline-block;
     vertical-align: middle;
 }
 
-#section-7 .apple-store *{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#section-7 .google-play{
+#section-7 .google-play,
+#section-7 .apple-store {
     background-color: black;
     border: none;
     padding: 10px 15px;
     border-radius: 20px;
-    font-size: 10px;
-}
-
-#section-7 .apple-store{
-    background-color: black;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 20px;
+    font-size: 10px; 
+    opacity: 0.9;
+    cursor: pointer;
+    margin-left: 50px;
+    border: solid 3px orange;
 }
 
 button > *:not(:last-child){
@@ -726,9 +721,4 @@ span{
     font-family: poppins, regular, sans-serif;
     font-size: 10px;
     color: white;
-}
-
-.footer-global{
-    padding: 50px;
-    margin: 10px 0 30px;
 }
